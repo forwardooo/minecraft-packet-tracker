@@ -1,0 +1,10 @@
+name: PacketTracker
+version: '1.0'
+main: dev.forward.packetTracker.PacketTracker
+api-version: '1.20'
+depend:
+  - ProtocolLib
+commands:
+  check:
+    description:
+      open menu to check player packets

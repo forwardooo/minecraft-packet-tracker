@@ -1,0 +1,60 @@
+[19:25:19] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:25:21] [ServerMain/INFO]: Loaded 7 recipes
+[19:25:22] [Server thread/INFO]: Starting minecraft server version 1.20
+[19:25:22] [Server thread/INFO]: Loading properties
+[19:25:22] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[19:25:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:25:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:25:22] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[19:25:22] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[19:25:22] [Server thread/INFO]: Default game type: SURVIVAL
+[19:25:22] [Server thread/INFO]: Generating keypair
+[19:25:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:25:23] [Server thread/INFO]: Using default channel type
+[19:25:23] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:25:23] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:25:24] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[19:25:24] [Server thread/INFO]: [PacketTracker] Loading server plugin PacketTracker v1.0
+[19:25:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:25:24] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[19:25:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:25:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:25:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:25:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:25:24] [Server thread/INFO]: Preparing level "world"
+[19:25:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:25:25] [Server thread/INFO]: Time elapsed: 187 ms
+[19:25:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:25:25] [Server thread/INFO]: Time elapsed: 35 ms
+[19:25:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:25:25] [Server thread/INFO]: Time elapsed: 28 ms
+[19:25:25] [Server thread/INFO]: [PacketTracker] Enabling PacketTracker v1.0
+[19:25:25] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] [InboundPacketListenerSet] Plugin PacketTracker tried to register listener for unknown packet CONFIGURATION_ACK[PLAY, CLIENT, 12, classNames: [net.minecraft.network.protocol.game.PacketPlayInConfigurationAcknowledged, net.minecraft.network.protocol.game.ServerboundConfigurationAcknowledgedPacket, PacketPlayInConfigurationAcknowledged, ServerboundConfigurationAcknowledgedPacket, ConfigurationAcknowledged] (unregistered)] [direction: from CLIENT]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] [InboundPacketListenerSet] Plugin PacketTracker tried to register listener for unknown packet CHUNK_BATCH_RECEIVED[PLAY, CLIENT, 8, classNames: [net.minecraft.network.protocol.game.PacketPlayInChunkBatchReceived, net.minecraft.network.protocol.game.ServerboundChunkBatchReceivedPacket, PacketPlayInChunkBatchReceived, ServerboundChunkBatchReceivedPacket, ChunkBatchReceived] (unregistered)] [direction: from CLIENT]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] [InboundPacketListenerSet] Plugin PacketTracker tried to register listener for unknown packet DEBUG_SAMPLE_SUBSCRIPTION[PLAY, CLIENT, 19, classNames: [net.minecraft.network.protocol.game.PacketPlayInDebugSampleSubscription, net.minecraft.network.protocol.game.ServerboundDebugSampleSubscriptionPacket, PacketPlayInDebugSampleSubscription, ServerboundDebugSampleSubscriptionPacket, DebugSampleSubscription] (unregistered)] [direction: from CLIENT]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] [InboundPacketListenerSet] Plugin PacketTracker tried to register listener for unknown packet COOKIE_RESPONSE[PLAY, CLIENT, 17, classNames: [net.minecraft.network.protocol.game.PacketPlayInCookieResponse, net.minecraft.network.protocol.game.ServerboundCookieResponsePacket, PacketPlayInCookieResponse, ServerboundCookieResponsePacket, CookieResponse] (unregistered)] [direction: from CLIENT]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] [InboundPacketListenerSet] Plugin PacketTracker tried to register listener for unknown packet CONTAINER_SLOT_STATE_CHANGED[PLAY, CLIENT, 16, classNames: [net.minecraft.network.protocol.game.PacketPlayInContainerSlotStateChanged, net.minecraft.network.protocol.game.ServerboundContainerSlotStateChangedPacket, PacketPlayInContainerSlotStateChanged, ServerboundContainerSlotStateChangedPacket, ContainerSlotStateChanged, net.minecraft.network.protocol.game.PacketPlayInContainerSlotStateChangedPacket, net.minecraft.network.protocol.game.ServerboundContainerSlotStateChangedPacketPacket, PacketPlayInContainerSlotStateChangedPacket, ServerboundContainerSlotStateChangedPacketPacket, ContainerSlotStateChangedPacket] (unregistered)] [direction: from CLIENT]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] [InboundPacketListenerSet] Plugin PacketTracker tried to register listener for unknown packet TRANSACTION[PLAY, CLIENT, 255, classNames: [net.minecraft.network.protocol.game.PacketPlayInTransaction, net.minecraft.network.protocol.game.ServerboundTransactionPacket, PacketPlayInTransaction, ServerboundTransactionPacket, Transaction, net.minecraft.network.play.client.CPacketConfirmTransaction] (unregistered)] [direction: from CLIENT]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] [InboundPacketListenerSet] Plugin PacketTracker tried to register listener for unknown packet FLYING[PLAY, CLIENT, 254, classNames: [net.minecraft.network.protocol.game.PacketPlayInFlying, net.minecraft.network.protocol.game.ServerboundFlyingPacket, PacketPlayInFlying, ServerboundFlyingPacket, Flying, net.minecraft.network.play.client.CPacketPlayer] (unregistered)] [direction: from CLIENT]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] [InboundPacketListenerSet] Plugin PacketTracker tried to register listener for unknown packet CHAT_PREVIEW[PLAY, CLIENT, 253, classNames: [net.minecraft.network.protocol.game.PacketPlayInChatPreview, net.minecraft.network.protocol.game.ServerboundChatPreviewPacket, PacketPlayInChatPreview, ServerboundChatPreviewPacket, ChatPreview] (unregistered)] [direction: from CLIENT]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] [InboundPacketListenerSet] Plugin PacketTracker tried to register listener for unknown packet CHAT_COMMAND_SIGNED[PLAY, CLIENT, 5, classNames: [net.minecraft.network.protocol.game.PacketPlayInChatCommandSigned, net.minecraft.network.protocol.game.ServerboundChatCommandSignedPacket, PacketPlayInChatCommandSigned, ServerboundChatCommandSignedPacket, ChatCommandSigned] (unregistered)] [direction: from CLIENT]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] Error filtering reports: java.lang.IllegalArgumentException: Cannot find report name for Plugin %s tried to register listener for unknown packet %s [direction: from %s]
+[19:25:25] [Server thread/WARN]: [ProtocolLib] [InboundPacketListenerSet] Plugin PacketTracker tried to register listener for unknown packet PING_REQUEST[PLAY, CLIENT, 33, classNames: [net.minecraft.network.protocol.game.PacketPlayInPingRequest, net.minecraft.network.protocol.game.ServerboundPingRequestPacket, PacketPlayInPingRequest, ServerboundPingRequestPacket, PingRequest] (unregistered)] [direction: from CLIENT]
+[19:25:25] [Server thread/INFO]: Running delayed init tasks
+[19:25:25] [Server thread/INFO]: Done (3.012s)! For help, type "help"
+[19:25:25] [Server thread/INFO]: Timings Reset
+[19:26:02] [User Authenticator #0/INFO]: UUID of player trippie_capy is 73e8647e-d139-3902-8be7-445425297ae1
+[19:26:05] [Server thread/INFO]: trippie_capy joined the game
+[19:26:05] [Server thread/INFO]: trippie_capy[/[0:0:0:0:0:0:0:1]:55789] logged in with entity id 211 at ([world]59.5, 127.0, -50.5)
+[19:29:27] [Server thread/INFO]: trippie_capy drowned
