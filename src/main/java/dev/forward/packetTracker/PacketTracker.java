@@ -1,24 +1,13 @@
 package dev.forward.packetTracker;
 
-import com.comphenix.protocol.PacketType;
-import com.comphenix.protocol.ProtocolLibrary;
-import com.comphenix.protocol.events.ListeningWhitelist;
-import com.comphenix.protocol.events.PacketAdapter;
-import com.comphenix.protocol.events.PacketEvent;
-import com.comphenix.protocol.events.PacketListener;
 import dev.forward.packetTracker.command.CommandModule;
 import dev.forward.packetTracker.inv.CheckInventory;
 import dev.forward.packetTracker.network.NetworkModule;
 import lombok.Getter;
 import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.inventory.InventoryClickEvent;
-import org.bukkit.event.inventory.InventoryCloseEvent;
-import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.lang.reflect.MalformedParameterizedTypeException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -49,7 +38,7 @@ public final class PacketTracker extends JavaPlugin implements Listener {
 
     }
 
-    public PlayerPacketList getList(Player pl) {
+    public PlayerPacketList getPlayerPacketList(Player pl) {
         return playerPacketMap.get(pl);
     }
 }

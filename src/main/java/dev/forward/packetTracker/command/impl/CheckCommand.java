@@ -24,7 +24,7 @@ public class CheckCommand extends AbstractCommand {
         }
         for (Player player1 : Bukkit.getOnlinePlayers()) {
             if (player1.getName().equalsIgnoreCase(args.get(0))) {
-                CheckInventory inv = new CheckInventory(PacketTracker.getInstance().getList(player1), (Player) sender);
+                CheckInventory inv = new CheckInventory(PacketTracker.getInstance().getPlayerPacketList(player1), (Player) sender);
                 inv.open();
                 return true;
             }
